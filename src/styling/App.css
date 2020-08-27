@@ -1,0 +1,21 @@
+body{
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoOnTickets{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#restoreHideTickets{
+    border: none;
+    background-color: lightcyan;
+    color: blue;
+}

@@ -1,0 +1,30 @@
+.ticket{
+    margin: 50px;
+
+}
+.lowerBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hideTicketButton{
+        background-color: white;
+        color:white;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        float: right;
+      }
+
+      .ticket:hover .hideTicketButton{
+        color:black;
+    }
+    .hideTicketButton:hover{
+        background-color: rgba(0, 128, 0, 0.1);
+    }
+    .hiddenTicket{
+        display: none;
+    }
