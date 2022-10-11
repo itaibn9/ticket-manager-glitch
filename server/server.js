@@ -4,16 +4,16 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 
-function checkHttps(request, response, next) {
+/*function checkHttps(request, response, next) {
   // Check the protocol — if http, redirect to https.
   if (request.get("X-Forwarded-Proto").indexOf("https") != -1) {
     return next();
   } else {
     response.redirect("https://" + request.hostname + request.url);
   }
-}
+}*/
 
-app.all("*", checkHttps)
+//app.all("*", checkHttps)
 
 // serve static build
 // app.use('/', express.static(path.join(__dirname, '../tic-tac/build')));
